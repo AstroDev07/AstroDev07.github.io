@@ -24,4 +24,4 @@ Primero, analizemos la parte `std::`, esto es lo que se llama `namespace` en esp
 
 Y `cout<<` es la función que se esta usando, esta función es la encargada de imprimir texto en la pantalla. Tiene una explicación más profunda, pero por eso mismo la dejaremos de utilizar por un buen tiempo. ¿Que cúal usaremos? tranquilo, lo veremos más adelante y sabrás por que.
 
-[Ruta](../Ruta.html)
+[Ruta](https://astrodev07.github.io/Ruta.html)
