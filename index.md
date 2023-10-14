@@ -14,6 +14,6 @@ Soy un joven apacionado por el mundo de la tecnología y la programación, desde
 Eso es secillo, seguiré una ruta(Que aún no es la perfecta, pero se hirá perfeccionando con el tiempo) y, al mismo tiempo que aprenda algo nuevo relacionado con esa ruta, vendré y haré un nuevo artículo para el Blog, donde trataré de explicarte lo mejor posible lo que aprendí, tanto de forma técnica como sencilla.
 
 ## ¿Qué ruta pienso seguir?
-Pues, como ya dije arriba, la ruta no es fija, aún esta pendiente a cambios, pero la ruta de introducción, por ahora está perfecta. Para tener una mayor organización, la ruta estará separada por capítulos, que yo mencionaré como, parada(Para que tenga más relación con ruta :) ). Y en cada parada habrán tantos posts como sea necesario. La ruta y todas sus paradas las puedes encontrar [aquí](/ruta.html) 
+Pues, como ya dije arriba, la ruta no es fija, aún esta pendiente a cambios, pero la ruta de introducción, por ahora está perfecta. Para tener una mayor organización, la ruta estará separada por capítulos, que yo mencionaré como, parada(Para que tenga más relación con ruta :) ). Y en cada parada habrán tantos posts como sea necesario. La ruta y todas sus paradas las puedes encontrar [aquí](/Ruta.html) 
 
 > En la página de la ruta dejaré todos las lecciones que escriba
