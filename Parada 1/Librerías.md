@@ -18,4 +18,4 @@ En conclución, sabes ya que es una librería y, desde la lección anterior, deb
 ```
 Donde `nombre` es el nombre de la librería que deseas incluir.
 
-[Ruta](https://astrodev07.github.io/Ruta.html) | [Siguiente](/Hola Mundo.html)
+[Ruta](https://astrodev07.github.io/Ruta.html) | [Siguiente](Hola Mundo.html)

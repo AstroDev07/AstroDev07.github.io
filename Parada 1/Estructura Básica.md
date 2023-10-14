@@ -31,4 +31,4 @@ int main(){
 ```
 Y tranquilo, en las siguientes lecciones entenderás mejor esta estructura.
 
-[Ruta](https://astrodev07.github.io/Ruta.html) | [Siguiente](/Librerías.html)</div>
+[Ruta](https://astrodev07.github.io/Ruta.html) | [Siguiente](Librerías.html)</div>
