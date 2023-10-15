@@ -1083,16 +1083,19 @@ body .markdown-body
 <div class="highlight"><pre><span class="cp">#include &lt;iostream&gt;</span>
 
 <span class="kt">int</span> <span class="nf">main</span><span class="p">(){</span>
-    <span class="n">std</span><span class="o">::</span><span class="n">cout</span><span class="o">&lt;&lt;</span><span class="s">&quot;Hola Mundo&quot;</span><span class="p">;</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">&quot;%s&quot;</span><span class="p">,</span><span class="s">&quot;Hola Mundo</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">)</span>
     <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
 <span class="p">}</span>
+</pre></div>
+<div class="highlight"><pre>Output:
+Hola Mundo
 </pre></div>
 Así es, esto escribe Hola Mundo en la pantalla. No te asustes, la primera vez que lo hice, yo tampoco entendí nada, pero yo te lo explicaré ahora mismo.</p>
 <h2 id="explicacion">Explicación<a class="headerlink" href="#explicacion" title="Permanent link"></a></h2>
 <p>Para empezar, creamos la estructura básica del programa que ya estudiamos en lecciones anteriores, declaramos las librerías a usar, creamos la función inicial <code>main</code>, y, dentro de ella, agregamos nuestro código.</p>
 <p>En este caso, la linea 4, es la encargada de escribir en la pantalla lo que queremos, así que vamos a analizarla.
-<div class="highlight"><pre><span class="n">std</span><span class="o">::</span><span class="n">cout</span><span class="o">&lt;&lt;</span><span class="s">&quot;Hola Mundo&quot;</span><span class="p">;</span>
+<div class="highlight"><pre><span class="n">printf</span><span class="p">(</span><span class="s">&quot;%s&quot;</span><span class="p">,</span> <span class="s">&quot;Hola Mundo&quot;</span><span class="p">);</span>
 </pre></div>
-Primero, analizemos la parte <code>std::</code>, esto es lo que se llama <code>namespace</code> en español espacio de nombre pero ignora el español. Básicamente lo que hace es avisar a la computadora de que estamos utilizando un función de la librería <code>iostream</code>. Sí, std es el <code>namespace</code> correspondiente a la librería <code>iostream</code>.</p>
-<p>Y <code>cout&lt;&lt;</code> es la función que se esta usando, esta función es la encargada de imprimir texto en la pantalla. Tiene una explicación más profunda, pero por eso mismo la dejaremos de utilizar por un buen tiempo. ¿Que cúal usaremos? tranquilo, lo veremos más adelante y sabrás por que.</p>
+En esta línea, estamos llamando a una función llamada <code>printf</code>, la cual es la encargada de imprimir texto en la pantalla. Dentro de los paréntesis de la función, hay 2 argumentos, el primero(<code>%s</code>), le dice a la computadora que lo que queremos imprimir es una cadena de texto, y el segundo(&ldquo;Hola Mundo&rdquo;), le dice a la computadora la cadena de texto que queremos imprimir.</p>
+<p>No te preocupes si no entendiste los términos, argumentos, función, cadena de texto o cualuier otro, los entenderás más adelante, sería imposible que te los explique ahora sin hacer que te pierdas más, solo ten paciencia.</p>
 <p><a href="https://astrodev07.github.io/Ruta.html">Ruta</a></p></article></body></html>
