@@ -9,7 +9,7 @@ Lo prometido es deuda, aquí está la ruta que tengo por ahora:
 
 ### Parada 2: Fundamentos de Programación en C++
 1. [Tipos de Datos.](/Parada 2/Tipos.html)
-2. Variables.  
+2. [Variables.](Parada 2/Variables.html)  
 
 
 
