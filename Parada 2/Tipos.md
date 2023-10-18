@@ -29,4 +29,4 @@ Es lo mismo que el float pero admite más decimales
 ## Otros
 Existen otros tipos de datos, pero los estudiaremos más adelante para no atormentarnos desde ya, así mantenemos una ruta de aprendizaje moderna ;)
 
-[Ruta](https://astrodev07.github.io/Ruta.html) | [Siguiente](/Variables.html)
+[Ruta](https://astrodev07.github.io/Ruta.html) | [Siguiente](Variables.html)
