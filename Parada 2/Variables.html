@@ -1076,26 +1076,31 @@ body .markdown-body
 .highlight .vi{color:teal}
 .highlight .il{color:#009999}
 .highlight .gc{color:#999;background-color:#EAF2F5}
-</style><title>Tipos</title></head><body><article class="markdown-body"><h1 id="tipos-de-datos">Tipos de Datos<a class="headerlink" href="#tipos-de-datos" title="Permanent link"></a></h1>
-<p>Hoy, vamos a conocer sobre los tipos de datos en C++.</p>
-<p>C++, es un lenguaje de tipado estático, lo que significa que cada datos tiene un tipo de dato. Veamoslo de otra manera.</p>
-<h3 id="tipos">Tipos<a class="headerlink" href="#tipos" title="Permanent link"></a></h3>
-<p>Estos son los tipos de datos primitivos de C++:
-<div class="highlight"><pre><span class="kt">int</span> <span class="c1">//Entero: 1,2,3...</span>
-<span class="kt">char</span> <span class="c1">//Caracter: A,a,B,b...</span>
-<span class="kt">float</span> <span class="c1">//Flotante: 1,5, 1,56, 1,05...</span>
-<span class="kt">double</span> <span class="c1">//Flotante doble: Admite mas decimales</span>
-<span class="kt">bool</span> <span class="c1">//True, false</span>
+</style><title>Variables</title></head><body><article class="markdown-body"><h1 id="variables">Variables<a class="headerlink" href="#variables" title="Permanent link"></a></h1>
+<p>Las variables, son un pequeño lugar para almacenar datos. Digamos que estás haciendo un programa que pide al usuario ingresar su nombre, para luego, usar ese nombre, pues para que puedas guardar ese nombre y usarlo más adelante, debes usar variables. C y C++, son lenguajes de tipado dinámico, o sea, que cada datos debe tener un valor, o un tipo. Esto, lo vimos en la clase anterior, donde conocimos algunos de los tipos de datos más usados, como el int, char, float, double. Aunque hay otros que estudiaremos más adelante.</p>
+<h3 id="como-se-usan-las-variables">¿Cómo se usan las variables?<a class="headerlink" href="#como-se-usan-las-variables" title="Permanent link"></a></h3>
+<p>Bueno, como en la vida real, para usar algo debe existir primero, pues, para usar una variable, esta debe ser declarada primero. Para declarar las variables en C++, debes seguir estos pasos:
+1. Definir el tipo de dato de la variable.
+2. Declarar el nombre o identificador de esta variable.
+3. Otorgarle un valor(Opcional)</p>
+<p>De modo que quede más o menos así:
+<div class="highlight"><pre><span class="n">tipo</span> <span class="n">nombre</span><span class="o">=</span><span class="n">valor</span><span class="p">;</span>
 </pre></div>
-Así que, cada valor independiente, se le debe atribuir un tipo de dato específico.</p>
-<h2 id="enteros">Enteros<a class="headerlink" href="#enteros" title="Permanent link"></a></h2>
-<p>Los enteros o <code>int</code>, son todos los números enteros, o sea, los que no tienen decimales.</p>
-<h2 id="caracteres">Caracteres<a class="headerlink" href="#caracteres" title="Permanent link"></a></h2>
-<p>Los caracteres en C++ son todas las letras desde la A-Z, a-z y otros caracteres especiales como: /\?_ etc&hellip;</p>
-<h2 id="float">Float<a class="headerlink" href="#float" title="Permanent link"></a></h2>
-<p>Los float, flotantes o número de punto flotante, son los números decimales, o los que tienen coma. La característica más relevante de Float, es que admite un máximo de decimales.</p>
-<h2 id="double">Double<a class="headerlink" href="#double" title="Permanent link"></a></h2>
-<p>Es lo mismo que el float pero admite más decimales</p>
-<h2 id="otros">Otros<a class="headerlink" href="#otros" title="Permanent link"></a></h2>
-<p>Existen otros tipos de datos, pero los estudiaremos más adelante para no atormentarnos desde ya, así mantenemos una ruta de aprendizaje moderna ;)</p>
-<p><a href="https://astrodev07.github.io/Ruta.html">Ruta</a> | <a href="/Variables.html">Siguiente</a></p></article></body></html>
+Si, al final, un ; ya que en C++ todas las líneas deben terminar con uno.</p>
+<h3 id="aun-no-entiendo-como-se-usan-las-variables">Aún no entiendo como se usan las variables.<a class="headerlink" href="#aun-no-entiendo-como-se-usan-las-variables" title="Permanent link"></a></h3>
+<p>Lo sé, lo sé, así que vamos a ver una nueva explicación más directa.</p>
+<p>Digamos que quieres guardar la edad de una persona. Para crear esta variable, sigamos los pasos anteriores:
+1. Definir el tipo de dato: La edad, es un número entero, o ¿tú tienes 16,73 años?
+2. Declarar el nombre: Vamos a decirle edad en minúsulas
+3. Otorgar un valor: Veamoslo con 16</p>
+<p>Ejemplo práctico:
+<div class="highlight"><pre><span class="kt">int</span> <span class="n">edad</span><span class="o">=</span><span class="mi">16</span><span class="p">;</span>
+</pre></div></p>
+<p>Ahora, cuando se llame a esta variable, seestará usando el valor 16. Como este ejemplo, hay muchos otros, y ya conoces otros tipos de datos desde la lección anterior. Así que hagamos algo interesante:</p>
+<h2 id="tarea">Tarea:<a class="headerlink" href="#tarea" title="Permanent link"></a></h2>
+<ol>
+<li>Crea un programa en C++ donde crees varias variables(Cuantas quieras) pero cada una debe tener un tipo de dato diferente.<blockquote>
+<p>Para saber que tipos de datos puedes usar, puedes ir a la lección anterior o puedes realizar una pequeña investigación bajo la búsqueda de Google &ldquo;Tipos de Datos en C++&rdquo;.</p>
+</blockquote>
+</li>
+</ol></article></body></html>
